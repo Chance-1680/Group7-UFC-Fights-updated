@@ -1,0 +1,81 @@
+---
+title: "UFC Fights Analysis Report"
+author: 
+  - name: "Chance Uwumukiza"
+  - name: "Solange [Last Name]"
+  - name: "Hope [Last Name]"
+date: "2025-06-15"
+format:
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+    toc: true
+    fig-pos: 'H'
+    keep-tex: true  # Optional: useful for debugging LaTeX
+---
+
+# Introduction
+
+This report analyzes UFC fight data to uncover trends in fighter performance, including knockdowns, strikes, fight durations, win methods, and fight frequency. The data was sourced from UFCStats.com through web scraping and cleaned for analysis.
+
+\newpage
+
+# Project Overview: UFC Fights Dataset
+
+## Background
+
+This project focuses on extracting and analyzing UFC fight statistics to gain insights into fighter performance. Because UFCStats.com does not provide a public API, the data was collected through custom-built web scraping scripts targeting fighter profiles.
+
+\newpage
+
+## Objectives
+
+- Scrape fighter statistics and match history from UFCStats.com  
+- Clean and organize the dataset for analysis  
+- Explore trends such as fight frequency, win methods, and striking patterns
+
+\newpage
+
+## Deliverables
+
+- A clean and structured dataset of UFC fights  
+- Visual analysis revealing:
+  - Top fighters by performance  
+  - Average fight duration across weight classes  
+  - Most common win methods (KO, submission, decision)  
+  - Key trends with actionable insights and visualizations
+
+\newpage
+
+# Visualizations
+
+## Knockdowns Distribution
+![Most fights have 0–1 knockdowns, indicating defensive strategies.](plots/knockdowns_distribution.png)
+
+\newpage
+
+## Top 10 Fighters by Total Strikes Landed
+![Veteran fighters lead in strikes due to experience and consistency.](plots/top_strikers.png)
+
+\newpage
+
+## Average Fight Length by Weight Class
+![Heavier weight classes show shorter fights due to higher knockout power.](plots/avg_fight_length.png)
+
+\newpage
+
+## Distribution of Win Methods
+![Decisions dominate (~60%), reflecting strategic and endurance-based fighting.](plots/win_methods.png)
+
+\newpage
+
+## Fight Frequency Over Time
+![UFC events have increased steadily, peaking in recent years.](plots/fight_frequency.png)
+
+\newpage
+
+# Conclusion
+
+The UFC fight data reveals key patterns in modern MMA competition. Most fights are won by decision, suggesting a focus on endurance and point scoring over risky knockouts. Heavier fighters tend to end bouts faster, while lighter classes show longer, more technical matches. Veteran fighters dominate in total strikes, highlighting experience as a critical factor. Finally, the frequency of UFC events continues to grow, reflecting the sport’s rising global popularity.
+
+These findings can inform athlete training, match prediction models, and viewer engagement strategies for stakeholders in the MMA ecosystem.

@@ -1,0 +1,125 @@
+---
+title: "UFC Fight Data Analysis"
+author:
+  - "Chance"
+  - "Solange"
+  - "Hope"
+date: "2025-06-15"
+format:
+  revealjs:
+    slide-number: true
+    toc: true
+    theme: simple
+    transition: slide
+    center: true
+    logo: "D:/Project of chance/ufc_logo.png.jpg"
+    code-fold: true
+    chalkboard:
+      buttons: false
+    incremental: false
+    css: styles.css
+---
+
+## Introduction
+
+This analysis explores UFC fight data focusing on:
+
+- Knockdowns  
+- Strikes  
+- Fight duration  
+- Win methods  
+- Event frequency  
+
+Data sourced from UFCStats.com, scraped and cleaned for analysis.
+
+---
+
+## Project Overview
+
+### Background
+
+- UFCStats.com lacks a public API  
+- Data collected via web scraping of fighter profiles  
+- Includes fight stats: knockdowns, strikes, submissions, results  
+- **Interactive scrollable data table:** [View here](file:///D:/Project%20of%20chance/scrollable_table.html)
+
+---
+
+### Objectives
+
+- Scrape and clean UFC fight data  
+- Analyze fighter performance and trends  
+- Deliver visual insights on key metrics  
+
+---
+
+## Knockdowns Distribution
+
+![](plots/knockdowns_distribution.png)
+
+Most fights feature **0–1 knockdowns**, showing that many bouts are more strategic or grappling-based.
+
+---
+
+## Top 10 Fighters by Total Strikes
+
+![](plots/top_strikers.png)
+
+Max Holloway leads with the most strikes landed, followed by Sean Strickland and Angela Hill.
+
+---
+
+## Average Fight Length by Weight Class
+
+![](plots/avg_fight_length.png)
+
+Lighter weight classes tend to have longer fights; heavier classes finish quicker.
+
+---
+
+## Distribution of Win Methods
+
+![](plots/win_methods.png)
+
+Most UFC fights end by **Decision**, followed by **KO/TKO** and **Submission**.
+
+---
+
+## Fight Frequency Over Time
+
+![](plots/fight_frequency.png)
+
+UFC fights increased over time, peaked around **2022–2023**, then declined in **2025**.
+
+---
+
+## Insights Summary
+
+- **Win Methods:** Decisions (45.8%) most common, then KO/TKO (32%), Submissions (20.8%)  
+- **Fight Length:** Lighter classes last longer (~807s); heavier ones end quicker (~559s)  
+- **Fight Frequency:** Steady rise since 1998, peak around 2022–2023, decline in 2025  
+- **Knockdowns:** Most fights (~70,000+) have none; only ~3,200 have 1 knockdown  
+- **Top Strikers:** Max Holloway (333 strikes) leads far ahead of others  
+
+---
+
+## Recommendations
+
+- **Promote Strikers:** Fighters like Max Holloway attract fans. Show them more in ads and events.  
+- **Train by Weight:** Lighter fighters need more energy; heavier fighters need more power.  
+- **Protect Fighters:** Knockdowns can be dangerous. Keep checking health and safety rules.  
+- **Plan Events Well:** Fewer fights in 2025. UFC should plan better and use online platforms more.  
+- **Use Stats in Shows:** Add simple stats during fights to help fans understand and enjoy more.
+
+---
+
+## Conclusion
+
+- Most UFC fights end by decision, especially in lighter weight classes  
+- Heavyweight fights are shorter due to higher KO rates  
+- Veteran fighters land more strikes overall  
+- UFC event frequency has grown significantly over the past two decades  
+
+---
+
+## Thank You
